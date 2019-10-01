@@ -1,0 +1,11 @@
+# Mysql数据库
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://58.215.76.232:10003/credit_cms?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+    username: credit
+    password: oracle
+
+mybatis-plus:
+  typeAliasesPackage: com.lsy.mybatisplus.entity
+  mapper-locations: classpath:mapper/*.xml
